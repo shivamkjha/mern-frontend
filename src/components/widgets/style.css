@@ -1,0 +1,66 @@
+.card1 {
+    border: 1px solid #ddd;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .profile1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .logo1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+  
+  .user-details1 {
+    color: var(--text-color);
+    flex: 1;
+  }
+  
+  .text-sm1 {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .detail-icon1 {
+    cursor: pointer;
+  }
+  
+  .footer1 {
+    margin-top: 12px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-icons svg {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .right1 {
+    margin-left: auto;
+  }
+  
+  .views {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .footer2 {
+    margin-top: 8px;
+    font-size: 20px;
+    color: var(--text-color);
+  }
+  

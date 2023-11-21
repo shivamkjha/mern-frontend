@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+.cardStyle{
+  background-color: var(--bg-color);
+  padding: 16px;
+  box-shadow: 1px 1px 1px 1px var(--text-color) ;
+  text-align: center;
+  /* border-color: var(--text-color); */
+  border-radius: 20px;
+  border-width: 10px;
+}
+.cardStyle1{
+  background-color: var(--bg-color);
+  padding: 16px;
+  box-shadow: 1px 1px 1px 1px var(--text-color) ;
+  text-align: center;
+  /* border-color: var(--text-color); */
+  border-radius: 20px;
+  border-width: 10px;
+  margin-right: 20px;
+}
+#title{
+  font-weight:700;
+  margin-top: 10px;
+  font-size:large;
+}
+#subtitle{
+  font-size: small;
+  margin-top: 3px;
+}
+#stats{
+  display: flex;
+  justify-content:center ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stat-num{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+  font-weight: 400;
+}
+.posts,.followers,.following{
+  margin-right: 8px;
+  justify-content: space-between;
+}
+.stat-type{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+.img{
+  height: 50px;
+  border-radius: 50%; /* Adjust the height as needed */
+  margin: 0 auto; /* Center the image */
+  border: 2px solid #ddd;
+}
+#actions{
+  margin-bottom: 20px;
+}
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --icon-color: #000;
+  --icon-bgcolor: #fff ;
+}
+.theme.dark {
+  --bg-color: #000;
+  --text-color: #fff;
+  --icon-color: #fff;
+  --icon-bgcolor: #000;
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+h1, h4, p, a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.icon {
+  color: var(--text-color);
+  background-color: var(--bg-color);;
+}
+ul {
+  list-style-type: none;
+}
+
+/* .btn {
+  padding: 10px 32px;
+  font-size:1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light {
+  background:  transparent;
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+  transition: 0.3s;
+  background: rgba(255,255, 255, 0.2);
+} */
+@media screen and (max-width: 1040px) {
+.cardStyle{
+  width: 80%;
+  margin: 0 auto;
+}
+}
